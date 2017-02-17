@@ -18,6 +18,6 @@ class PagesController < ApplicationController
   end
 
   def hashtag_allowed(hashtag)
-    !hashtag.nil? && (hashtag.include?('railsgirls') || hashtag.include?('BGC_JHB'))
+    !hashtag.nil? && (hashtag.include?('railsgirls') || hashtag.include?('blackgirlscode') || hashtag.include?('BGC'))
   end
 end
